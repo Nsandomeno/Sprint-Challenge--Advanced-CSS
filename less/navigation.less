@@ -3,8 +3,7 @@
 .nav-div{
     width: 100%;
     background-color:@nav-bg;
-    display: flex;
-    flex-direction: column;
+    .flexColumns();
     align-items: center;
     justify-content: space-between;
 
@@ -14,11 +13,11 @@
         margin-bottom: 2.5%;
     }
     nav{
-        display: flex;
+        .flexNav();
         margin-top: 1%;
         margin-bottom: 1%;
         width:40%;
-        justify-content:space-around;
+        
 
         a{
             font-size: 1.6rem;

@@ -175,10 +175,10 @@ p {
 }
 .nav-div nav {
   display: flex;
+  justify-content: space-around;
   margin-top: 1%;
   margin-bottom: 1%;
   width: 40%;
-  justify-content: space-around;
 }
 .nav-div nav a {
   font-size: 1.6rem;
