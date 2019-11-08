@@ -1,1 +1,31 @@
 // Navigation code here
+
+.nav-div{
+    width: 100%;
+    background-color:@nav-bg;
+    .flexColumns();
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        font-size: 4rem;
+        margin-top: 5%;
+        margin-bottom: 2.5%;
+    }
+    nav{
+        .flexNav();
+        margin-top: 1%;
+        padding-bottom: 1%;
+        width:40%;
+
+        @media @phone{
+            width: 80%;
+        }
+        }
+        
+
+        a{
+            font-size: 1.6rem;
+            }
+    
+}//close of the navigation container
