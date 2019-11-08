@@ -175,8 +175,9 @@ p {
 }
 .nav-div nav {
   display: flex;
-  margin-bottom: 2.5%;
-  width: 60%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 40%;
   justify-content: space-around;
 }
 .nav-div nav a {
@@ -191,6 +192,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .img-div img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
